@@ -1,6 +1,7 @@
 # AnalystGPT ( Multimodal Financial Intelligence And Forecasting Platform )
 Multimodal financial intelligence platform for forecasting revenue, EPS, earnings surprises, and risk using SEC filings, earnings calls, news, and market data.
 
+```mermaid
 flowchart TD
     %% ─── DATA SOURCES ───
     subgraph SRC["Data Sources"]
@@ -152,3 +153,4 @@ flowchart TD
     class TE,TXE,CA,H1,H2,H3,H4,H5,TS1,TS2,TS3,TS4,TS5,ENS,SHAP,ATT ml
     class API,P1,P2,P3,P4,P5 serve
     class MLF,MON,INFRA ops
+```
